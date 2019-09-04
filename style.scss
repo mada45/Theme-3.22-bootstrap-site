@@ -1,0 +1,211 @@
+
+
+
+$primary: #8CB8FF;
+$font-family-base: Muli;
+
+
+/*Main Image - Main Page*/
+.jumbotron{
+    background: url(doc-pic-two.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 30rem;
+}
+
+/*Putting the Text on Image*/
+.center{
+    display: flex;
+    justify-content: center;
+    top: 2.5em;
+    text-align: center;
+    position: relative;
+    font-size: 5em;
+    color: white;
+}
+
+/*Centering FontAwesome Icons*/
+.icons{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+/*Making FontAwesome Icons White*/
+.fa-smile, .fa-user-nurse, .fa-calendar-alt{
+    color: white;
+}
+
+/*Cetering Social Media Icons*/
+.sm-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Gap between Social Media Icons*/
+.sm-icons-gap{
+    margin: 0 0.2em;
+}
+
+
+footer{
+    padding: 2rem 0;
+    margin: 2rem 0 0 0;
+    
+}
+
+/*About us page Main Image*/
+.about{
+    background: url(pic-about.jpg);
+    background-size: cover;
+    background-position:top;
+    height: 30rem;
+}
+
+/*Award Pic margin*/
+.award{
+margin-bottom: 2em;
+}
+
+/*Custom bullet for li*/
+ul li {
+    list-style: none;
+  
+    display: inline-block;
+    list-style: none; 
+    margin: 0 0 16px 1.1225em;
+    /* Give the bullet room on the left hand side */
+  
+    padding: 0;
+    position: relative;
+  }
+
+  /*Custom bullet for li*/
+ul li::before {
+    color: #8CB8FF;
+    content: "\2022"; 
+    /* Unicode of character to precede the list item */
+    display: inline-block;
+    font-size: 1em; 
+    left: -1.1225em; 
+    position: absolute;
+    top: 0em; 
+  
+  }
+
+/*Main Image - FAQ*/
+.faq{
+    background: url(pic-faq.png);
+    background-size: cover;
+    background-position:center;
+    height: 30rem;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-info-title{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Google Maps*/
+.map{
+    margin: 2rem 0;
+    width: 100%;
+    height: 25rem;
+}
+
+/*Main Image - Contact*/
+.contact{
+    background: url(pic-contact.png);
+    background-size: cover;
+    background-position:top;
+    height: 30rem;
+}
+
+.form-marg{
+    margin: 2rem 10rem;
+}
+
+/*Main Image - Contact*/
+.phy{
+    background: url(pic-phy.png);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.marg-bot{
+    margin-bottom: 2rem;
+}
+
+
+/*Pics for the Physicians cards*/
+.doc-one{
+    background: url(doc-one.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+.doc-two{
+    background: url(doc-two.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 20rem;
+}
+
+.doc-three{
+    background: url(doc-three.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 20rem;
+}
+
+/*Main Image - Careers*/
+.careers{
+    background: url(pic-careers.png);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+/*Main Image - Insurances*/
+.ins{
+    background: url(pic-ins.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+/*Main Image - Services*/
+.services{
+    background: url(pic-services.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+/*Could not figure this out
+@media(max-width:375px){
+    .center{
+        top: 1em;
+        font-size:2em;
+    }
+}
+
+@media(min-width:1024px){
+    .center{
+        top: 1em;
+        font-size:2em;
+    }
+}*/
+
+@import "bootstrap-4.3.1/scss/bootstrap.scss"
+
+
